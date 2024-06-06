@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+/* import 'package:flutter/material.dart';
+import 'package:flutter_application_1/3/funcion%20renderizar/render_citas_medicas.dart';
 
 class MenuCitasMedicas extends StatelessWidget {
   @override
@@ -8,8 +9,15 @@ class MenuCitasMedicas extends StatelessWidget {
         title: Text('Citas Médicas'),
       ),
       body: Center(
-        child: Text('Menú de Citas Médicas'),
+        child: ElevatedButton(
+          onPressed: () {
+            // Llama a la función para renderizar los datos de citas médicas
+            RenderizadorCitasMedicas.renderizarDatos(context);
+          },
+          child: Text('Mostrar Opciones de Citas Médicas'),
+        ),
       ),
     );
   }
 }
+ */

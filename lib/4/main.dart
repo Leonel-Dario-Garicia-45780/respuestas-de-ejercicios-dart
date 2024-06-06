@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/4/formulario_inicio_de_secion.dart';
-import 'package:flutter_application_1/4/formulario_registro.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,7 +36,6 @@ class Pantalla extends StatelessWidget {
               SizedBox(height: 20.0),
               Divider(),
               SizedBox(height: 20.0),
-              FormularioRegistro(), // Usamos el componente de registro
             ],
           ),
         ),

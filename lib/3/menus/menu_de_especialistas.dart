@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+/* import 'package:flutter/material.dart';
+import 'package:flutter_application_1/3/funcion%20renderizar/render_especialistas.dart';
 
 class MenuEspecialistas extends StatelessWidget {
   @override
@@ -8,8 +9,14 @@ class MenuEspecialistas extends StatelessWidget {
         title: Text('Especialistas'),
       ),
       body: Center(
-        child: Text('Menú de Especialistas'),
+        child: ElevatedButton(
+          onPressed: () {
+            // Llama a la función para renderizar los datos de citas médicas
+            RenderizadorEspecialistas.renderizarDatos(context);
+          },
+          child: Text('Mostrar Opciones de Especialistas'),
+        ),
       ),
     );
   }
-}
+} */
